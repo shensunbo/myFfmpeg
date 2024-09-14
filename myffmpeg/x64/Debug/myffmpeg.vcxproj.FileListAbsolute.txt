@@ -1,1 +1,1 @@
-E:\CODE\myPro\myffmpeg\myFfmpeg\myffmpeg\x64\Debug\myffmpeg.exe
+E:\01_my_fold\01_doc_sunbo\01CAMERA\DVRrecord\ffmpeg\myFfmpeg\myffmpeg\x64\Debug\myffmpeg.exe

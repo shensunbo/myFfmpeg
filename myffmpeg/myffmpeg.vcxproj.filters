@@ -18,7 +18,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\test.cpp">
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\myffmpeg.cpp">
       <Filter>源文件\src</Filter>
     </ClCompile>
   </ItemGroup>
