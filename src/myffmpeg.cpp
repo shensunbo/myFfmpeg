@@ -49,8 +49,8 @@ int MyFfmpeg::get_video_frame(OutputStream *ost, std::string filename, int width
 
     static FILE *fd = NULL;
     if(!fd){
-        int err = fopen_s(&fd, filename.c_str(), "rb");
-        if (err != 0) {
+        fd = fopen(filename.c_str(), "rb");
+        if (fd == NULL) {
             printf("Could not open input file pic.uyvy\n");
             return -1;
         }

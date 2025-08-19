@@ -1,3 +1,0 @@
-﻿  myffmpeg.cpp
-E:\01_my_fold\01_doc_sunbo\01CAMERA\DVRrecord\ffmpeg\myFfmpeg\src\myffmpeg.cpp(96,35): warning C4244: 'argument': conversion from 'int64_t' to 'int', possible loss of data
-  myffmpeg.vcxproj -> E:\01_my_fold\01_doc_sunbo\01CAMERA\DVRrecord\ffmpeg\myFfmpeg\myffmpeg\x64\Debug\myffmpeg.exe

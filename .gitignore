@@ -3,3 +3,5 @@ myffmpeg/.vs/myffmpeg/v16
 x64
 .vs
 output
+build
+bazel-*
