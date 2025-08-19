@@ -11,7 +11,7 @@ extern "C" {
 
 #include "log.h"
 
-const int RECORD_DURATION_SEC = 30; // Record for 30 seconds
+const int RECORD_DURATION_SEC = 15; // Record for 30 seconds
 
 int main() {
     // Initialize FFmpeg
@@ -35,6 +35,8 @@ int main() {
         avformat_close_input(&input_ctx);
         return -1;
     }
+
+    av_dump_format(input_ctx, 0, input_url, 0);
 
     // Find video stream
     int video_stream_idx = -1;
@@ -192,6 +194,9 @@ int main() {
 
     // Write file trailer
     av_write_trailer(output_ctx);
+
+    // Dump output file information
+    av_dump_format(output_ctx, 0, output_filename, 1);
 
     // Clean up resources
     avformat_close_input(&input_ctx);
