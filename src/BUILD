@@ -4,7 +4,7 @@ cc_binary(
         "main.cpp", 
     ],
     deps = [
-        ":ffmpeg_app"
+        ":ffmpeg_app",
     ]
 )
 
